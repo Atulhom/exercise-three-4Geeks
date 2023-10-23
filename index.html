@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise3 4Geeks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="card text-start w-50 m-auto mt-5">
+        <div class="card-header h2">
+            Payment form example
+        </div>
+
+        <p type="button" class="col-11 btn btn-danger mt-3 m-auto p-2 text-start">Some fields are missing</p>
+        <div class="card-body">
+
+            <form class="row g-3">
+                <div class="col-md-6 h6">
+                    <label for="inputEmail4" class="form-label">Card</label>
+                    <input type="card" class="form-control" id="inputCard4" placeholder="XXXXXXXXXXXXXXXX">
+                </div>
+                <div class="col-md-2 h6">
+                    <label for="inputCvc4" class="form-label">CVC#</label>
+                    <input type="text" class="form-control" id="inputCvc4" placeholder="0000">
+                </div>
+                <div class="col-md-2 h6">
+                    <label for="inputCvc4" class="form-label">Amount</label>
+                    <input type="text" class="form-control" id="inputCvc4" placeholder="Amount">
+                </div>
+
+                <div class="col-6 h6">
+                    <label for="inputAddress" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="inputAddress">
+                </div>
+                <div class="col-6 h6">
+                    <label for="inputAddress" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="inputAddress">
+                </div>
+
+
+                <div class="col-md-6 h6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-3 h6">
+                    <label for="inputState" class="form-label">State</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Pick state...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="col-md-3 h6">
+                    <label for="inputZip" class="form-label">Postal Code</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-6">
+                    <div class="form-check ps-sm-0">
+                        <label class="text-start"></label>
+                        We accept:
+                        <div class="form-check form-check-inline me-3">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1"><svg
+                                    xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
+                                    viewBox="0 0 50 50">
+                                    <path
+                                        d="M 5 7 C 2.25 7 0 9.25 0 12 L 0 38 C 0 40.75 2.25 43 5 43 L 45 43 C 47.75 43 50 40.75 50 38 L 50 12 C 50 9.25 47.75 7 45 7 Z M 5 9 L 45 9 C 46.667969 9 48 10.332031 48 12 L 48 38 C 48 39.667969 46.667969 41 45 41 L 5 41 C 3.332031 41 2 39.667969 2 38 L 2 12 C 2 10.332031 3.332031 9 5 9 Z M 29.6875 19.40625 C 26.585938 19.40625 25 20.933594 25 22.875 C 25 26.386719 29.0625 25.914063 29.0625 27.71875 C 29.0625 28.023438 28.828125 28.75 27.125 28.75 C 25.417969 28.75 24.3125 28.09375 24.3125 28.09375 L 23.78125 30.46875 C 23.78125 30.46875 24.886719 31.09375 27 31.09375 C 29.113281 31.09375 32.03125 29.476563 32.03125 27.125 C 32.03125 24.296875 27.96875 24.074219 27.96875 22.8125 C 27.96875 22.167969 28.46875 21.6875 29.9375 21.6875 C 30.890625 21.6875 31.96875 22.40625 31.96875 22.40625 L 32.46875 19.96875 C 32.46875 19.96875 31.050781 19.40625 29.6875 19.40625 Z M 16.46875 19.625 L 13.78125 27.5625 C 13.78125 27.5625 13.597656 26.886719 13.53125 26.46875 C 11.996094 23.023438 9.5 21.75 9.5 21.75 L 11.875 30.75 L 15.125 30.75 L 19.625 19.625 Z M 20.78125 19.625 L 19.03125 30.75 L 22 30.75 L 23.78125 19.625 Z M 36.8125 19.625 L 31.96875 30.75 L 34.90625 30.75 L 35.5 29.15625 L 39.1875 29.15625 L 39.5 30.75 L 42.1875 30.75 L 39.90625 19.625 Z M 6.25 19.65625 C 6.25 19.65625 12.054688 21.453125 13.40625 25.8125 L 12.40625 20.75 C 12.40625 20.75 11.976563 19.65625 10.8125 19.65625 Z M 37.9375 22.84375 L 38.75 27.03125 L 36.3125 27.03125 Z">
+                                    </path>
+                                </svg></label>
+                        </div>
+                        <div class="form-check form-check-inline me-3">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2"><svg
+                                    xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
+                                    viewBox="0 0 48 48">
+                                    <path fill="#3F51B5"
+                                        d="M45,35c0,2.209-1.791,4-4,4H7c-2.209,0-4-1.791-4-4V13c0-2.209,1.791-4,4-4h34c2.209,0,4,1.791,4,4V35z">
+                                    </path>
+                                    <path fill="#FFC107" d="M30 14A10 10 0 1 0 30 34A10 10 0 1 0 30 14Z"></path>
+                                    <path fill="#FF3D00"
+                                        d="M22.014,30c-0.464-0.617-0.863-1.284-1.176-2h5.325c0.278-0.636,0.496-1.304,0.637-2h-6.598C20.07,25.354,20,24.686,20,24h7c0-0.686-0.07-1.354-0.201-2h-6.598c0.142-0.696,0.359-1.364,0.637-2h5.325c-0.313-0.716-0.711-1.383-1.176-2h-2.973c0.437-0.58,0.93-1.122,1.481-1.595C21.747,14.909,19.481,14,17,14c-5.523,0-10,4.477-10,10s4.477,10,10,10c3.269,0,6.162-1.575,7.986-4H22.014z">
+                                    </path>
+                                </svg></label>
+                        </div>
+                        <div class="form-check form-check-inline me-3">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3"><svg
+                                    xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
+                                    viewBox="0 0 100 100">
+                                    <path fill="#3070b7"
+                                        d="M43.804,32.5H64.5c3.966,0,7.251,0.614,9.773,1.828l0.535-0.293c0.125-1.2,0.192-2.46,0.192-3.785 C75,21.828,69,15,55,15H31.604c-1.477,0-2.734,1.075-2.964,2.534l-9.616,61.155C18.834,79.903,19.772,81,21,81h12.917l-0.893,5.69 c-0.079,0.502,0.043,0.978,0.291,1.37l8.441-53.811C41.917,33.236,42.777,32.5,43.804,32.5z">
+                                    </path>
+                                    <path fill="#40a6dd"
+                                        d="M74.808,34.035l-0.535,0.293C71.751,33.114,68.466,32.5,64.5,32.5H43.804 c-1.026,0-1.887,0.736-2.047,1.75l-8.441,53.811C33.667,88.617,34.28,89,35,89h1.433h10.63c1.477,0,2.734-1.075,2.964-2.534 l2.505-15.932C52.762,69.075,54.019,68,55.496,68h3.53C67.286,68,81,62.857,81,45.071C81,40.424,79.325,36.353,74.808,34.035z">
+                                    </path>
+                                    <path fill="#375ca9"
+                                        d="M43.804,32.5c-1.026,0-1.887,0.736-2.047,1.75l-3.442,21.944c0.587-0.439,1.314-0.694,2.101-0.694 h8.949c3.771,0,22.604-1.024,24.909-21.172C71.751,33.114,68.466,32.5,64.5,32.5H43.804z">
+                                    </path>
+                                    <g>
+                                        <path fill="#1f212b"
+                                            d="M47.063,90H35c-0.878,0-1.709-0.383-2.279-1.05c-0.571-0.668-0.82-1.548-0.685-2.415L32.748,82H21 c-0.878,0-1.709-0.383-2.279-1.05c-0.571-0.668-0.82-1.548-0.685-2.416l9.616-61.155C27.961,15.421,29.622,14,31.604,14H55 c13.149,0,21,6.075,21,16.25c0,1.087-0.045,2.168-0.134,3.223C79.883,35.792,82,39.787,82,45.071C82,63.999,66.973,69,59.026,69 h-3.53c-0.991,0-1.822,0.711-1.976,1.689l-2.505,15.932C50.707,88.579,49.045,90,47.063,90z M31.604,16 c-0.99,0-1.821,0.711-1.975,1.689l-9.616,61.155c-0.047,0.293,0.034,0.579,0.228,0.806C20.434,79.876,20.703,80,21,80h14.086 l-1.073,6.846c-0.046,0.293,0.034,0.578,0.228,0.804C34.434,87.876,34.703,88,35,88h12.063c0.991,0,1.822-0.711,1.976-1.689 l2.505-15.932C51.853,68.421,53.515,67,55.496,67h3.53C66.816,67,80,62.382,80,45.071c0-4.81-1.9-8.224-5.647-10.146l-0.609-0.313 l0.07-0.68C73.938,32.737,74,31.498,74,30.25C74,21.194,67.075,16,55,16H31.604z">
+                                        </path>
+                                        <path fill="#1f212b"
+                                            d="M37.63,57.331l3.633-23.158C41.462,32.913,42.53,32,43.804,32H64.5c4.04,0,7.401,0.632,9.99,1.878 l0.32,0.154l-0.04,0.353C72.416,54.958,53.193,56,49.364,56h-8.949c-0.658,0-1.281,0.206-1.801,0.595L37.63,57.331z M43.804,33 c-0.778,0-1.432,0.559-1.553,1.328l-3.285,20.938C39.422,55.091,39.911,55,40.415,55h8.949c3.658,0,21.932-0.985,24.369-20.371 C71.324,33.548,68.221,33,64.5,33H43.804z">
+                                        </path>
+                                        <rect width="26.26" height="1" x="23.149" y="68.669" fill="#1f212b"
+                                            transform="rotate(-81.124 36.279 69.17)"></rect>
+                                        <path fill="#1f212b"
+                                            d="M23.925,77c-0.026,0-0.053-0.002-0.079-0.006c-0.272-0.043-0.459-0.299-0.416-0.572l8.564-54.466 C32.264,20.243,33.718,19,35.452,19H43.5c0.276,0,0.5,0.224,0.5,0.5S43.776,20,43.5,20h-8.048c-1.238,0-2.277,0.888-2.47,2.112 l-8.564,54.466C24.379,76.824,24.166,77,23.925,77z">
+                                        </path>
+                                        <path fill="#1f212b"
+                                            d="M50.5,20h-3c-0.276,0-0.5-0.224-0.5-0.5s0.224-0.5,0.5-0.5h3c0.276,0,0.5,0.224,0.5,0.5 S50.776,20,50.5,20z">
+                                        </path>
+                                        <path fill="#1f212b"
+                                            d="M54.5,20h-1c-0.276,0-0.5-0.224-0.5-0.5s0.224-0.5,0.5-0.5h1c0.276,0,0.5,0.224,0.5,0.5 S54.776,20,54.5,20z">
+                                        </path>
+                                        <path fill="#1f212b"
+                                            d="M57.5,64h-1c-0.276,0-0.5-0.224-0.5-0.5s0.224-0.5,0.5-0.5h1c0.276,0,0.5,0.224,0.5,0.5 S57.776,64,57.5,64z">
+                                        </path>
+                                        <path fill="#1f212b"
+                                            d="M66.5,62.357c-0.193,0-0.378-0.113-0.46-0.303c-0.108-0.254,0.009-0.548,0.263-0.657 C70.727,59.503,76,55.133,76,45.071c0-0.902-0.084-1.707-0.256-2.46c-0.062-0.269,0.106-0.537,0.376-0.599 c0.272-0.064,0.537,0.107,0.599,0.376C76.908,43.216,77,44.093,77,45.071c0,10.606-5.603,15.232-10.303,17.246 C66.633,62.345,66.565,62.357,66.5,62.357z">
+                                        </path>
+                                        <path fill="#1f212b"
+                                            d="M60.499,63.906c-0.252,0-0.47-0.191-0.496-0.448c-0.029-0.274,0.17-0.521,0.445-0.549 c0.951-0.1,1.965-0.282,2.929-0.526c0.271-0.072,0.539,0.094,0.607,0.361c0.068,0.267-0.094,0.54-0.361,0.607 c-1.024,0.26-2.058,0.446-3.071,0.552C60.534,63.905,60.517,63.906,60.499,63.906z">
+                                        </path>
+                                    </g>
+                                </svg></label>
+                        </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-floating col-6 text-end">
+                    <h6 class="text-start mb-2">Message</h6>
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <p class="text-start">Add any notes here.</p>
+                </div>
+            </form>
+
+        </div>
+        <div class="card-footer">
+            <div class="text-end">
+                <button type="button" class="btn btn-secondary me-0">Cancel</button>
+                <button type="button" class="btn btn-primary">Send</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
